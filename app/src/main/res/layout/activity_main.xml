@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="517dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="92dp"
+        android:text="Back"
+        app:backgroundTint="#00A282"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="610dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="163dp"
+        android:text="Right"
+        app:backgroundTint="#00A282"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/frontBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="517dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="233dp"
+        android:text="@string/front"
+        app:backgroundTint="#00A282"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/leftBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="424dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="163dp"
+        android:text="Left"
+        app:backgroundTint="#00A282"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/autoDriveBtn"
+        android:layout_width="191dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="475dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="300dp"
+        android:text="Auto  drive"
+        app:backgroundTint="#B61010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/idDistanceText"
+        android:layout_width="77dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="623dp"
+        android:layout_marginBottom="281dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idTemperatureText"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="620dp"
+        android:layout_marginBottom="197dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="620dp"
+        android:layout_marginBottom="250dp"
+        android:text="Temperature"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="63dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="635dp"
+        android:layout_marginBottom="334dp"
+        android:text="Distance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idHumidityText"
+        android:layout_width="78dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="622dp"
+        android:layout_marginBottom="118dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="644dp"
+        android:layout_marginBottom="163dp"
+        android:text="Humidity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buzzerBtn"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="408dp"
+        android:layout_marginBottom="40dp"
+        android:text="BUZZER"
+        app:backgroundTint="#0000ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/idConnectBtn"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="570dp"
+        android:layout_marginBottom="40dp"
+        android:text="CONNECT"
+        app:backgroundTint="#B61010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ledsBtn"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="40dp"
+        android:text="LEDS"
+        app:backgroundTint="#018FB6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
